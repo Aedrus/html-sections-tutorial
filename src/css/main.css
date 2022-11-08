@@ -1,0 +1,134 @@
+/* -------- Main CSS Stylesheet.
+ ==============================================================================
+ General Guidelines
+ ------------------------------------------------------------------------------
+   * Each CSS rule must follow an alphabetical format. 
+   * This means each property of a rule should be in alphebetical order from top to bottom
+   * with the exception of special character statements at the very top (@, -, etc).
+   *
+   * HINT: VSCode command "Sort Lines Ascending" set to keybind "alt + a". Use this to 
+   * sort properties.
+   *
+   * This stylesheet is broken down into sections. To jump to them, use the find tool
+   * to search for "||".
+ ==============================================================================
+ Naming Convention (SMACSS Derivative)
+ ------------------------------------------------------------------------------
+   * Priority is given to classes over ID's in most cases.
+   *
+   * General naming convention is as follows: 
+   * [name/shorthand/state]-[component/state]-[adjustor/Variant]
+   * ex. ".sidebar-header" or ".sb-h" // Defines specific component styling.
+   * ex. ".btn-primary" or ".text-primary" // Defines primary styling for elements.
+   * ex. ".is-active" or ".has-success" // Defines styling for states.
+   * ex. ".w-100" or ".h-100" // Utility classes for sizing with percentage.
+   *
+ =============================================================================*/
+
+/* =====================================
+   || General Rules
+   =====================================
+   * Used for default styling of general elements. No ID's or classes.
+   * e.g. body, h, p, links, tables, fonts, padding, blockquote, etc.
+*/
+
+body {
+
+}
+
+h1,
+h2,
+h3,
+h4, 
+h5 {
+
+}
+
+p {
+
+}
+
+ul {
+
+}
+
+ol {
+
+}
+
+table {
+
+}
+
+td, th {
+
+}
+
+blockquote {
+
+}
+
+/* =====================================
+   || Theme & Utility Rules
+   =====================================
+   * Contains highly-reusable utility classes that can be used on various modules 
+   * and elements.
+   * Also used for theme and design styling. This can include brand color classes, font
+   * size classes, gradient classes, link color classes, etc.
+*/
+
+.border-blue {
+
+}
+
+.text-primary {
+
+}
+
+/* =====================================
+   || Layout Rules
+   =====================================
+   * Contains styling for the larger sections of a page, as well as alignment styles. 
+   * ID's may be used for larger sections.
+   * 
+   * e.g. header, footer, sidebar, main navigation, article, container, maincontent, etc.
+   * e.g. grid, flex, display, etc.
+*/
+
+#header {
+
+}
+
+#footer {
+
+}
+
+
+/* =====================================
+   || Module Rules
+   =====================================
+   * Contains rules for standalone components. Defined with modularity and reusability
+   * in mind. Modules makes up the bulk of your webpage.
+   * 
+   * Stick to classes. This way we can nest smaller modules within other modules.
+   * e.g. cards, carousel, modals, navigation bars, dialog, popup, tooltip, etc.
+   * e.g. forms, buttons, sliders, dropdowns, video, audio, etc.
+*/
+
+
+
+/* =====================================
+   || State Rules
+   ===================================== 
+   * Contains rules for the different possible variations of a single element or module.
+   * At its simplest form, it can offer two styles for activated or deactivated.
+   * 
+   * Can be applied to layout or modules. Typically utilizes JavaScript to function.
+   * e.g. isActive, hasError, InputSuccess, hidden, shown, etc.
+*/
+
+
+
+
+
+
